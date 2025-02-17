@@ -12,12 +12,46 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <title>Todo App</title>
     </head>
+
+    <style>
+        ul,
+        ol {
+            list-style: none;
+        }
+
+        body {
+            padding-top: 50px;
+        }
+
+        ul {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: black;
+            padding: 10px 0;
+            text-align: center;
+            z-index: 10;
+            display: flex;
+            gap: 50px;
+        }
+
+        li {
+            color: #fff;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff !important;
+            font-size: 20px;
+        }
+    </style>
     <body>
-        <!-- <header>Dau Trang</header>
         <ul>
-            <li><a href="/Register">Đăng ký</a></li>
+            <li><a href="/register">Đăng ký</a></li>
             <li><a href="/Login">Đăng nhập</a></li>
-        </ul> -->
+            <li><a href="/todos">todods</a></li>
+        </ul>
         <div id="app"></div>
         <script type="module" src="/main.js"></script>
     </body>
