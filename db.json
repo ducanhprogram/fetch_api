@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "email": "leducanhled@gmail.com",
+      "password": "$2a$10$kLj3X2ZNegO2y9ZwjPdymuU8gqte.xUl8qlcXXQ/FQHnzM9MuhGjq",
+      "id": 1
+    },
+    {
+      "email": "huan@gmail.com",
+      "password": "$2a$10$o5Jjv9aGA0IEM0Ga9SfaOOZAFAwgkK8H09I5YrMPj622KUNHJrvjS",
+      "id": 2
+    }
+  ],
+  "tasks": [
+    {
+      "title": "Công việc 2",
+      "status": "done",
+      "priority": "1",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "title": "Công việc 3",
+      "status": "todo",
+      "priority": "1",
+      "userId": 1,
+      "id": 2
+    }
+  ]
+}
